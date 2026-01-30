@@ -4,7 +4,7 @@ import Tei from "../assets/image/tei.png"
 
 export default function AboutUs() {
   return (
-    <div className="max-w-300 mx-auto px-5 py-16 bg-white font-serif text-gray-800">
+    <div className="max-w-300 mx-auto px-5 py-16 bg-white text-gray-800">
       {/* Hero Section */}
       <section className="text-center mb-16 py-10 px-5 rounded-2xl bg-linear-to-br from-orange-500 to-orange-400 text-white">
         <h1 className="text-4xl md:text-6xl font-bold mb-5">About Flavorful Kitchen</h1>
