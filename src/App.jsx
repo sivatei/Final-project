@@ -13,6 +13,7 @@ import Subscription from './components/Subscription';
 import Cook from './components/Cook';
 import Payment from './components/Payment';
 import ExploreMore from './components/ExploreMore';
+import AboutUs from './components/AboutUs';
 
 
 
@@ -33,6 +34,7 @@ function App() {
         <Route path="/amok" element={<Cook/>}/>
         <Route path="/payment" element={<Payment/>}/>
         <Route path="/explore" element={<ExploreMore/>}/>
+        <Route path="/about" element={<AboutUs/>}/>
       </Routes>
 
     </BrowserRouter>

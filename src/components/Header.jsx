@@ -18,19 +18,19 @@ const Header = () => {
             <ul className='flex gap-10 justify-center ml-25 mt-1'>
                 <li><NavLink to="/"><a href="#" className='font-bold text-white'>Home</a></NavLink></li>
                 <li><NavLink to="/recipes"><a href="#" className='font-bold text-white'>Recipes</a></NavLink></li>
-                <li><a href="#" className='font-bold text-white'>About</a></li>
+                <li><NavLink to="/about"><a href="#" className='font-bold text-white'>About</a></NavLink></li>
                 <li><a href="#" className='font-bold text-white'>Contest</a></li>
                 <li><a href="#" className='font-bold text-white'>Blogs</a></li>
             </ul>
             <div className='flex items-center gap-2 bg-gray-200 px-2 py-1 rounded-2xl'>
                 <input type="text" placeholder='search' className=' bg-gray-200 rounded-xl px-3 text-gray'/>
-                <IoSearch className='text-gray-500 mr-2 text-xl' />
+                <IoSearch className='text-gray-500 mr-2 text-xl'/>
             </div>
         </div>
         <div className='flex gap-5 mr-13 text-white'>
             <NavLink to="/login" onClick={() => window.scrollTo(0, 0)}><a href="" className='text-2xl'><MdAccountCircle /></a></NavLink>
-            <NavLink to="/setting" onClick={() => window.scrollTo(0, 0)}><a href="" className='text-2xl'><BiSolidBookBookmark /></a></NavLink>
-            <a href="" className='text-2xl'><RiListSettingsFill /></a>
+            <a href="" className='text-2xl'><BiSolidBookBookmark /></a>
+            <a href="" className='text-2xl'><RiListSettingsFill/></a>
         </div>
       </div>
     </div>
