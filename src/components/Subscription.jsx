@@ -24,7 +24,7 @@ const Subscription = () => {
                 </div>
                 <p className='mt-3 text-gray-500'>basic feature for up to 10 user</p>
                 <div className='mt-5 flex justify-center'>
-                  <button className='w-50 h-9 shadow-lg bg-gray-200 text-gray-500 text-sm rounded-xl hover:scale-105 hover:bg-amber-600 hover:text-white transition transform'>Get started</button>
+                  <button className='w-50 h-9 shadow-lg bg-gray-200 text-gray-500 text-sm rounded-xl hover:scale-105 hover:bg-orange-500 hover:text-white transition transform'>Get started</button>
                 </div>
                 <div className='w-full h-0.5 bg-gray-300 mt-7'></div>
                 <p className='font-bold text-lg mt-2 text-gray-500'>Features</p>
@@ -41,7 +41,7 @@ const Subscription = () => {
             </div>
 
             {/* card2 */}
-            <div className='w-70 h-115 bg-orange-300 flex justify-center items-center rounded-2xl shadow-lg'>
+            <div className='w-70 h-115 bg-linear-to-tr from-orange-300 to-orange-500 flex justify-center items-center rounded-2xl shadow-lg'>
               <div className='w-[87%] h-[90%]'>
                 <p className='font-bold text-black'>Pro Plan</p>
                 <div className='flex gap-1 mt-3'>
@@ -76,7 +76,7 @@ const Subscription = () => {
                 </div>
                 <p className='mt-3 text-gray-500'>basic feature for up to 10 user</p>
                 <div className='mt-5 flex justify-center'>
-                  <button className='w-50 h-9 shadow-lg bg-gray-200 text-gray-500 text-sm rounded-xl hover:scale-105 hover:bg-amber-600 hover:text-white transition transform'>Get started</button>
+                  <button className='w-50 h-9 shadow-lg bg-gray-200 text-gray-500 text-sm rounded-xl hover:scale-105 hover:bg-orange-500 hover:text-white transition transform'>Get started</button>
                 </div>
                 <div className='w-full h-0.5 bg-gray-300 mt-7'></div>
                 <p className='font-bold text-lg mt-2 text-gray-500'>Features</p>

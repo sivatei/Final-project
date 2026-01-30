@@ -36,7 +36,7 @@ const Payment = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-[50%] h-full flex justify-center items-center rounded-r-xl bg-orange-200'>
+            <div className='w-[50%] h-full flex justify-center items-center rounded-r-xl bg-linear-to-r from-orange-200 to-orange-300'>
                 <div className='w-[90%] h-[90%] bg-white rounded-xl'>
                     <p className='text-lg font-bold text-center mt-2'>Card Detail</p>
                         <div className="relative w-[90%] ml-4 mt-10">
@@ -44,9 +44,9 @@ const Payment = () => {
                         />
                         <label
                             htmlFor="email"
-                            className="absolute left-1 top-2 text-sm transition-all 
-                                    peer-placeholder-shown:top-2.5 peer-placeholder-shown:text-base
-                                    peer-focus:-top-4 peer-focus:text-xs "
+                            className="absolute left-3 top-2 text-gray-500 transition-all px-1
+                                        peer-focus:-top-2 peer-focus:text-sm
+                                        peer-not-placeholder-shown:-top-2 peer-not-placeholder-shown:text-sm"
                         >
                             Cardholder's Name
                         </label>
@@ -56,9 +56,9 @@ const Payment = () => {
                         />
                         <label
                             htmlFor="email"
-                            className="absolute left-1 top-2 text-sm transition-all 
-                                    peer-placeholder-shown:top-2.5 peer-placeholder-shown:text-base
-                                    peer-focus:-top-4 peer-focus:text-xs "
+                            className="absolute left-3 top-2 text-gray-500 transition-all px-1
+                                        peer-focus:-top-2 peer-focus:text-sm
+                                        peer-not-placeholder-shown:-top-2 peer-not-placeholder-shown:text-sm"
                         >
                             Card Number
                         </label>
@@ -90,7 +90,7 @@ const Payment = () => {
                             </div>
                         </div>
                     <div className='flex justify-center mt-8'>
-                        <button className='w-50 h-10 bg-orange-400 rounded-2xl shadow-lg hover:bg-orange-300 hover:text-white hover:scale-105 transition transform'>Pay now</button>
+                        <button className='w-50 h-10 bg-linear-to-r from-orange-400 to-orange-300 rounded-2xl shadow-lg hover:bg-linear-l hover:text-white hover:scale-105 transition transform'>Pay now</button>
                     </div>
                 </div>
             </div>

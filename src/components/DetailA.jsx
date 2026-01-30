@@ -196,7 +196,7 @@ const food=foods.find(u=>u.id===Number(id));
                   <div className='w-full h-[60%]  text-center'>
                     <div><h1 className='text-center font-bold text-3xl pb-3 '>{food.name}</h1></div>
                        <div className='flex gap-2 justify-center font-bold'> 
-                    <div className='flex text-3xl pt-0.5 gap-3 text-amber-600 '>  
+                    <div className='flex text-3xl pt-0.5 gap-3 text-amber-400 '>  
                       <IoIosStarOutline />
                       <IoIosStarOutline />
                       <IoIosStarOutline />
@@ -230,7 +230,7 @@ const food=foods.find(u=>u.id===Number(id));
                       <img  className='w-full h-full object-cover' src="https://i.pinimg.com/1200x/56/8f/93/568f933701047d1ef8594e88037e7491.jpg" alt="" />
                     </div> */}
                     
-                    <Link to="/plan" onClick={(e) => e.stopPropagation()}><button className='w-50 h-10 text-center border-2 bg-orange-900 text-orange-50 rounded-xl mt-3 ml-26 hover:scale-105 hover:bg-orange-700 transform'>VIEW RECIPE</button></Link>
+                    <Link to="/plan" onClick={(e) => e.stopPropagation()}><button className='w-50 h-10 text-center border-2 bg-orange-400 text-orange-50 rounded-xl mt-3 ml-26 hover:scale-105 hover:bg-linear-to-r from-orange-500 to-orange-600 transform'>VIEW RECIPE</button></Link>
                    
                   </div>
                 </div>

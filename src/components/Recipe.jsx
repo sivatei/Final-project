@@ -80,7 +80,7 @@ const [highlightedCategory, setHighlightedCategory] = useState(null);
       <div className="relative inline-block mt-10 ml-7">
           <button
             onClick={toggleMenu}
-            className="bg-orange-800 text-white px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-orange-700 transition-colors flex mr-15"
+            className="bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-orange-400 transition-colors flex mr-15"
           >
             Browse Recipes {isOpen ? <FaAngleDown className='mt-1.5 ml-2'/> : <FaAngleRight className='mt-1.5 ml-2'/>}
           </button>
@@ -145,7 +145,7 @@ const [highlightedCategory, setHighlightedCategory] = useState(null);
             {items.map((recipe, index) => (
               <div
                 key={index}
-                className="h-20 bg-orange-900 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-200 flex cursor-pointer"
+                className="h-20 bg-linear-to-l from-orange-400 to-orange-500 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-200 flex cursor-pointer"
               >
                 <div className="w-[45%] h-full">
                   <img

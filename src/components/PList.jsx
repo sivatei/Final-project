@@ -16,7 +16,7 @@ const PList = () => {
             </div>
              <div className='grid grid-cols-4 justify-center item-center'>
                 {PListData.map((p)=>( 
-                  <div className='bg-orange-100 shadow-2xl w-65 h-105 rounded-3xl ml-7 mt-13 flex flex-col'>
+                  <div className='bg-orange-50 shadow-2xl w-65 h-105 rounded-3xl ml-7 mt-13 flex flex-col'>
         <div className='card w-full h-full'>
             <div className=' w-full h-55'>
                 <img className='w-full h-full object-cover p-2 rounded-3xl' 
@@ -38,7 +38,7 @@ const PList = () => {
                
                  </div>
                    <div className='w-full h-10  mt-3   ' >
-                    <NavLink className=' w-full h-full flex justify-center  text-amber-900' to={`/detail/${p.id}`} onClick={() => window.scrollTo(0, 0)}> <button  className='w-[90%] h-full  border-amber-700  border-2 rounded-2xl hover:bg-orange-900 hover:text-orange-50'>VIEW DETAIL</button> </NavLink>
+                    <NavLink className=' w-full h-full flex justify-center  text-amber-900' to={`/detail/${p.id}`} onClick={() => window.scrollTo(0, 0)}> <button  className='w-[90%] h-full  border-amber-500  border-2 rounded-2xl hover:bg-linear-to-r from-orange-500 to-orange-600 hover:text-orange-50'>VIEW DETAIL</button> </NavLink>
                   </div>               
               </div>
             </div>

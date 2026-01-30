@@ -9,7 +9,7 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
   return (
     <div>
-      <div className='w-full h-16 bg-orange-800 flex justify-between items-center'>
+      <div className='w-full h-16 bg-linear-to-r from-orange-500 to-orange-600 flex justify-between items-center'>
         <div className='font-bold text-2xl gap-2 px-3 text-white flex'>
             <img src={Logo} alt="Logo" className='w-15 h-15 py-2 mt-1 object-contain filter invert'/>
             <h1 className='my-5'>FOOD RECIPE</h1>

@@ -10,12 +10,9 @@ import PList from './components/PList'
 import Footer from './components/Footer'
 import Recipe from './components/Recipe'
 import Subscription from './components/Subscription';
-import Setting from './components/Setting';
 import Cook from './components/Cook';
 import Payment from './components/Payment';
-
-
-
+import ExploreMore from './components/ExploreMore';
 
 
 
@@ -32,10 +29,10 @@ function App() {
         <Route path="/khmer" element={<Khmer/>} />
         <Route path='/detail/:id' element={<DetailA/>}/>
         <Route path="/recipes" element={<Recipe/>}/>
-        <Route path="/setting" element={<Setting/>}/>
         <Route path="/plan" element={<Subscription/>}/>
         <Route path="/amok" element={<Cook/>}/>
         <Route path="/payment" element={<Payment/>}/>
+        <Route path="/explore" element={<ExploreMore/>}/>
       </Routes>
 
     </BrowserRouter>
