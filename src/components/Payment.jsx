@@ -1,8 +1,9 @@
 import React from 'react'
 import { IoMdArrowRoundBack } from "react-icons/io";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Payment = () => {
+    const navigate = useNavigate();
   return (
     <div className='w-full h-170 bg-orange-50'>
         <div className='flex gap-80'>
