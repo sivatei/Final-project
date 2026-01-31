@@ -8,13 +8,14 @@ export default function ExploreMore() {
   const [likedRecipes, setLikedRecipes] = useState([]);
 
   const categories = [
-    { id: 'all', name: 'All Recipes', count: 328, icon: ChefHat },
-    { id: 'breakfast', name: 'Breakfast', count: 54, icon: '🍳' },
-    { id: 'lunch', name: 'Lunch', count: 89, icon: '🥗' },
-    { id: 'dinner', name: 'Dinner', count: 112, icon: '🍽️' },
-    { id: 'desserts', name: 'Desserts', count: 43, icon: '🍰' },
-    { id: 'snacks', name: 'Snacks', count: 30, icon: '🍿' }
+    { id: 'all', name: 'All Recipes', count: 328 },
+    { id: 'breakfast', name: 'Breakfast', count: 54 },
+    { id: 'lunch', name: 'Lunch', count: 89 },
+    { id: 'dinner', name: 'Dinner', count: 112 },
+    { id: 'desserts', name: 'Desserts', count: 43 },
+    { id: 'snacks', name: 'Snacks', count: 30 }
   ];
+
 
   const recipes = [
     {
@@ -212,7 +213,7 @@ export default function ExploreMore() {
               </h3>
               <div className="space-y-2">
                 {categories.map(cat => {
-                  const Icon = cat.icon;
+        
                   return (
                     <button
                       key={cat.id}
@@ -223,11 +224,6 @@ export default function ExploreMore() {
                           : 'hover:bg-orange-50'}`}
                     >
                       <div className="flex items-center gap-3">
-                        {typeof Icon === 'string' ? (
-                          <span className="text-2xl">{Icon}</span>
-                        ) : (
-                          <Icon className="w-5 h-5" />
-                        )}
                         <span className="font-semibold">{cat.name}</span>
                       </div>
                       <span className={`text-sm font-bold ${selectedCategory === cat.id ? 'text-orange-100' : 'text-orange-400'}`}>
